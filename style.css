@@ -69,8 +69,12 @@ nav h1{
 .right-nav ul li a{
     text-decoration: none;
     color: white;
-    font-weight: 700;
+    font-weight:500;
 }
+.right-nav ul li a:hover{
+    color: #ED563B;
+}
+
 #orange-button{
     display: inline-block;
     padding: 15px 25px;
@@ -80,3 +84,111 @@ nav h1{
 
 /*--------------------------- Header Ends Here --------------------------------*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query  : */
+/* For mobile:  */
+@media only screen and (max-width:480px){
+    .fixed-width{
+        width: 100%;
+    }
+    .none{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .right-nav ul{
+        display: flex;  
+        justify-content: space-evenly;  
+        background: rgba(0, 0, 0, 0.61);
+        border-radius: 25px; 
+    }
+    .right-nav ul li{
+        list-style: none;
+        margin-left: 15px; 
+    }
+    .right-nav ul li a{
+        padding-left: 5px;
+    }
+    #orange-button{
+        display: inline-block;
+        padding: 15px 25px;
+        background: #ED563B;
+        font-weight: 400;
+        border-radius: 25px;
+    }
+    
+}
+
+/* For ipads, tablet:  */
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .fixed-width{
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .right-nav ul{
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.61);
+        border-radius: 25px; 
+    }
+    #orange-button{
+        display: inline-block;
+        padding: 15px 25px;
+        background: #ED563B;
+        font-weight: 400;
+        border-radius: 25px;
+    }
+}
+
+/* For Small screen, laptop:  */
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .fixed-width{
+        width: 100%;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .right-nav ul{
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.61);
+        border-radius: 25px; 
+    }
+    #orange-button{
+        display: inline-block;
+        padding: 15px 25px;
+        background: #ED563B;
+        font-weight: 400;
+        border-radius: 25px;
+    }
+}
