@@ -1,0 +1,82 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------- common styles ----------------*/
+.fixed-width{
+    width: 1150px;
+    margin: auto;
+}
+.orange-text{
+    color: #ED563B;
+}
+
+
+/*--------------------------- Header Starts Here --------------------------------*/
+.video{
+    position: relative;
+}
+#video{
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+header{
+    background: rgba(39, 44, 60, 0.74);
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    padding-top: 1px;
+}
+
+/*--------------------------- Navbar Menu --------------------------------*/
+nav{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px 0;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    font-size: 2.5em;
+    color: white;
+}
+.right-nav ul{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+.right-nav ul li{
+    list-style: none;
+    margin-left: 55px; 
+}
+.right-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+#orange-button{
+    display: inline-block;
+    padding: 15px 25px;
+    background: #ED563B;
+    font-weight: 400;
+}
+
+/*--------------------------- Header Ends Here --------------------------------*/
+
