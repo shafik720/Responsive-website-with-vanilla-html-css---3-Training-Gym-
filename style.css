@@ -81,7 +81,9 @@ nav h1{
     background: #ED563B;
     font-weight: 400;
 }
-
+#orange-button:hover{
+    color: aqua;
+}
 /*--------------------------- Header Ends Here --------------------------------*/
 
 
@@ -107,6 +109,7 @@ nav h1{
     .none{
         display: none;
     }
+    /*--------------------------- Navbar Menu --------------------------------*/
     .navbar{
         display: flex;
         flex-direction: column;
@@ -142,6 +145,7 @@ nav h1{
     .fixed-width{
         width: 100%;
     }
+    /*--------------------------- Navbar Menu --------------------------------*/
     .navbar{
         display: flex;
         flex-direction: column;
@@ -170,6 +174,7 @@ nav h1{
     .fixed-width{
         width: 100%;
     }
+    /*--------------------------- Navbar Menu --------------------------------*/
     .navbar{
         display: flex;
         flex-direction: column;
