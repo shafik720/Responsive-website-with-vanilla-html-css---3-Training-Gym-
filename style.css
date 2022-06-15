@@ -19,7 +19,9 @@ body{
 .orange-text{
     color: #ED563B;
 }
-
+a{
+    text-decoration: none;
+}
 
 /*--------------------------- Header Starts Here --------------------------------*/
 .video{
@@ -76,6 +78,7 @@ nav h1{
 }
 
 #orange-button{
+    color: white;
     display: inline-block;
     padding: 15px 25px;
     background: #ED563B;
@@ -83,6 +86,22 @@ nav h1{
 }
 #orange-button:hover{
     color: aqua;
+}
+/*--------------------------- Banner Text --------------------------------*/
+.banner-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 170px; 
+    color: white;
+}
+.banner-text h6{
+    font-size: 1.8em;
+}
+.banner-text h1{
+    font-size: 5em;
 }
 /*--------------------------- Header Ends Here --------------------------------*/
 
@@ -110,6 +129,7 @@ nav h1{
         display: none;
     }
     /*--------------------------- Navbar Menu --------------------------------*/
+    
     .navbar{
         display: flex;
         flex-direction: column;
@@ -137,13 +157,25 @@ nav h1{
         font-weight: 400;
         border-radius: 25px;
     }
-    
+    /*--------------------------- Banner Text --------------------------------*/
+    .banner-text{
+        text-align: center;
+    }
+    .banner-text h6{
+        font-size: 1.3em;
+    }
+    .banner-text h1{
+        font-size: 3em;
+    }
 }
 
 /* For ipads, tablet:  */
 @media only screen and (min-width:481px) and (max-width:768px) {
     .fixed-width{
         width: 100%;
+    }
+    .none{
+        display: none;
     }
     /*--------------------------- Navbar Menu --------------------------------*/
     .navbar{
@@ -166,6 +198,15 @@ nav h1{
         background: #ED563B;
         font-weight: 400;
         border-radius: 25px;
+    }/*--------------------------- Banner Text --------------------------------*/
+    .banner-text{
+        text-align: center;
+    }
+    .banner-text h6{
+        font-size: 1.3em;
+    }
+    .banner-text h1{
+        font-size: 3em;
     }
 }
 
@@ -197,3 +238,5 @@ nav h1{
         border-radius: 25px;
     }
 }
+
+.banner-text{}
