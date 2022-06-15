@@ -47,7 +47,8 @@ header{
 /*--------------------------- Navbar Menu --------------------------------*/
 nav{
     background: rgba(255, 255, 255, 0.2);
-    padding: 15px 0;
+    padding: 15px 5px;
+    text-transform: uppercase;
 
 }
 .navbar{
@@ -56,7 +57,7 @@ nav{
     align-items: center;
 }
 nav h1{
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
 }
 .right-nav ul{
@@ -71,6 +72,7 @@ nav h1{
 .right-nav ul li a{
     text-decoration: none;
     color: white;
+    font-size: 0.9em;
     font-weight:500;
 }
 .right-nav ul li a:hover{
@@ -80,11 +82,21 @@ nav h1{
 #orange-button{
     color: white;
     display: inline-block;
+    padding: 12px 25px;
+    background: #ED563B;
+    font-weight: 400;
+}
+#orange-button2{
+    color: white;
+    display: inline-block;
     padding: 15px 25px;
     background: #ED563B;
     font-weight: 400;
 }
 #orange-button:hover{
+    color: aqua;
+}
+#orange-button2:hover{
     color: aqua;
 }
 /*--------------------------- Banner Text --------------------------------*/
@@ -184,10 +196,11 @@ nav h1{
     }
     .right-nav ul li a{
         padding-left: 5px;
+        font-size: 0.7em;
     }
     #orange-button{
         display: inline-block;
-        padding: 15px 25px;
+        padding: 12px 12px;
         background: #ED563B;
         font-weight: 400;
         border-radius: 25px;
@@ -224,14 +237,14 @@ nav h1{
     .fixed-width{
         width: 100%;
     }
-    .none{
+    /* .none{
         display: none;
-    }
+    } */
     /*--------------------------- Navbar Menu --------------------------------*/
     .navbar{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         row-gap: 20px;
     }
@@ -242,6 +255,14 @@ nav h1{
         background: rgba(0, 0, 0, 0.61);
         border-radius: 25px; 
     }
+    .right-nav ul li{
+        list-style: none;
+        margin-left: 15px; 
+    }
+    .right-nav ul li a{
+        padding-left: 5px;
+        font-size: 0.9em;
+    }
     #orange-button{
         display: inline-block;
         padding: 15px 25px;
@@ -251,6 +272,7 @@ nav h1{
     }/*--------------------------- Banner Text --------------------------------*/
     .banner-text{
         text-align: center;
+        width: 80%;
     }
     .banner-text h6{
         font-size: 1.3em;
@@ -300,6 +322,10 @@ nav h1{
         font-weight: 400;
         border-radius: 25px;
     }
+
+    .banner-text{
+        text-align: center;
+        width: 80%;
+    }
 }
 
-.banner-text{}
