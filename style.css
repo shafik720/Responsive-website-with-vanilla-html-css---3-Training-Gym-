@@ -96,6 +96,8 @@ nav h1{
     row-gap: 25px;
     margin-top: 170px; 
     color: white;
+    text-transform: uppercase;
+    text-align: center;
 }
 .banner-text h6{
     font-size: 1.8em;
@@ -105,12 +107,45 @@ nav h1{
 }
 /*--------------------------- Header Ends Here --------------------------------*/
 
+/*--------------------------- Choose Program Starts Here --------------------------------*/
+.program-sections{
+    margin-top: 100px; 
+}
 
+.program-headings{
+    text-align: center;
+    width: 60%; 
+    margin: auto;
+}
+.program-headings h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.program-headings p{
+    color: grey;
+    margin-top: 15px; 
+}
 
-
-
-
-
+.program-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    width: 95%;
+}
+.program-detail{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px; 
+    margin-top: 150px; 
+    padding: 10px;
+}
+.program-details h3, p{
+    margin-bottom: 10px; 
+}
+.program-details p{
+    color: grey;
+}
 
 
 
@@ -160,12 +195,27 @@ nav h1{
     /*--------------------------- Banner Text --------------------------------*/
     .banner-text{
         text-align: center;
+        width: 80%;
     }
     .banner-text h6{
         font-size: 1.3em;
     }
     .banner-text h1{
         font-size: 3em;
+    }
+
+    /*--------------------------- Choose Program--------------------------------*/
+    .program-detail{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px; 
+        margin-top: 150px; 
+        padding: 5px;
+    }
+    .program-headings{
+        text-align: center;
+        width: 90%; 
+        margin: auto;
     }
 }
 
@@ -207,6 +257,19 @@ nav h1{
     }
     .banner-text h1{
         font-size: 3em;
+    }
+    /*--------------------------- Choose Program--------------------------------*/
+    .program-detail{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px; 
+        margin-top: 150px; 
+        padding: 25px;
+    }
+    .program-headings{
+        text-align: center;
+        width: 90%; 
+        margin: auto;
     }
 }
 
