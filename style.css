@@ -175,17 +175,93 @@ nav h1{
 }
 .think-sections h1{
     font-size: 3em;
+    text-transform: uppercase;
 }
 .think-sections p{
     margin: 30px 0px;
     font-weight: 500; 
 }
+/*--------------------------- Think sections ends Here --------------------------------*/
+
+/*--------------------------- Class sections starts Here --------------------------------*/
+
+.class-section{
+    padding: 30px 0;
+}
+.class-headings{
+    text-align: center;
+    margin-top: 20px;
+}
+.class-headings h1{
+    font-size: 2em;
+}
+.class-headings p{
+    color: grey;
+    width: 50%;
+    margin: auto;
+}
+.class-headings img{
+    margin: 25px 0;
+}
 
 
+.class-detail{
+    display: flex;
+    column-gap: 50px;
+    margin-top: 80px;
+    padding: 10px;
+}
+.class-detail-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    width: 50%;
+}
+.class-card{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+}
+.class-card:hover{
+    color: #ED563B;
+}
+.class-card h2{
+    font-size: 1.3em;
+}
+#orange-button3{
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #ED563B;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.61);
+}
+#orange-button3:hover{
+    opacity: 0.7;
+}
 
-
-
-
+.class-detail-2 p{
+    margin: 20px 0;
+    color: grey;
+    width: 90%;
+    line-height: 30px;
+}
+.class-detail-2 h2{
+    margin-top: 20px;
+    font-weight: 800;
+}
+.class-detail-2 img{
+    width: 100%;
+}
 
 
 
@@ -264,6 +340,24 @@ nav h1{
         width: 90%;
         margin: auto;
     }
+    /*--------------------------- Class Sections--------------------------------*/
+    .class-headings p{
+        color: grey;
+        width: 90%;
+        margin: auto;
+    }
+    .class-detail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 80px;
+    }
+    .class-detail-1{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+        width: 100%;
+    }
 }
 
 /* For ipads, tablet:  */
@@ -334,6 +428,24 @@ nav h1{
         width: 90%;
         margin: auto;
     }
+    /*--------------------------- Class Sections--------------------------------*/
+    .class-headings p{
+        color: grey;
+        width: 90%;
+        margin: auto;
+    }
+    .class-detail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 80px;
+    }
+    .class-detail-1{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+        width: 100%;
+    }
 }
 
 /* For Small screen, laptop:  */
@@ -367,6 +479,29 @@ nav h1{
     .banner-text{
         text-align: center;
         width: 80%;
+    }
+    /*--------------------------- Class Sections--------------------------------*/
+    .class-headings p{
+        color: grey;
+        width: 90%;
+        margin: auto;
+    }
+    .class-detail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        margin-top: 80px;
+    }
+    .class-detail-1{
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+        width: 60%;
+        margin: auto;
+    }
+    .class-detail-2{
+        width: 80%;
+        margin: auto;
     }
 }
 
