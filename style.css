@@ -444,7 +444,12 @@ nav h1{
         display: flex;
         flex-direction: column;
         row-gap: 35px;
-        width: 100%;
+        width: 60%;
+        margin: auto;
+    }
+    .class-detail-2{
+        width: 80%;
+        margin: auto;
     }
 }
 
