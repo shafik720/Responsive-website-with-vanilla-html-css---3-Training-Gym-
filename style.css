@@ -158,6 +158,33 @@ nav h1{
 .program-details p{
     color: grey;
 }
+/*--------------------------- Choose Program ends Here --------------------------------*/
+
+/*--------------------------- Think sections starts Here --------------------------------*/
+.think-section{
+    background: url(images/cta-bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 95px 5px;
+}
+.think-sections {
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.think-sections h1{
+    font-size: 3em;
+}
+.think-sections p{
+    margin: 30px 0px;
+    font-weight: 500; 
+}
+
+
+
+
+
 
 
 
@@ -230,6 +257,13 @@ nav h1{
         width: 90%; 
         margin: auto;
     }
+    /*--------------------------- Think Sections--------------------------------*/
+    .think-sections {
+        color: white;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
 }
 
 /* For ipads, tablet:  */
@@ -291,6 +325,13 @@ nav h1{
     .program-headings{
         text-align: center;
         width: 90%; 
+        margin: auto;
+    }
+    /*--------------------------- Think Sections--------------------------------*/
+    .think-sections {
+        color: white;
+        text-align: center;
+        width: 90%;
         margin: auto;
     }
 }
