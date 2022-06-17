@@ -262,6 +262,58 @@ nav h1{
 .class-detail-2 img{
     width: 100%;
 }
+/*--------------------------- Class sections ends Here --------------------------------*/
+
+/*--------------------------- Schedule sections starts Here --------------------------------*/
+.schedule-section{
+    background: url(images/schedule-bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 15px;
+}
+.schedule-headings{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.schedule-headings h1, p, img{
+    margin-top: 30px;
+}
+.schedule-headings h1{
+    text-transform: uppercase;
+}
+.schedule-headings a{
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.schedule-headings a:hover{
+    color: #ED563B;
+}
+.schedule-details{
+    margin-top: 50px;
+}
+.schedule-detailss{
+    display: flex;
+}
+.schedule-detailss div{
+    color: white;
+    padding: 20px 0px;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border: 1px solid white;   
+    text-align: center; 
+}
+.schedule-detailss div p{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
 
 
 
