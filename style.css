@@ -229,10 +229,13 @@ nav h1{
     column-gap: 20px;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
     border-radius: 5px;
-    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.61);
     cursor: pointer;
+}
+.class-card img{
+    margin-top: 0px;
 }
 .class-card:hover{
     color: #ED563B;
@@ -283,7 +286,7 @@ nav h1{
     margin: auto;
     text-align: center;
 }
-.schedule-headings h1, p, img{
+.schedule-sections .schedule-headings h1, p, img{
     margin-top: 30px;
 }
 .schedule-headings h1{
@@ -345,6 +348,7 @@ nav h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     row-gap: 20px;  
     margin: 30px 25px;
 }
