@@ -96,8 +96,15 @@ nav h1{
 #orange-button:hover{
     color: aqua;
 }
-#orange-button2:hover{
-    color: aqua;
+#orange-button4{
+    color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #ED563B;
+    font-weight: 400;
+}
+#orange-button4:hover{
+    opacity: 0.7;
 }
 /*--------------------------- Banner Text --------------------------------*/
 .banner-text{
@@ -381,7 +388,7 @@ nav h1{
     background: white;
     padding: 50px;
     border-radius: 10px;
-    width: 100%;
+    width: 70%;
     margin: auto;
     position: relative;
     border: 3px solid orange;
@@ -390,7 +397,7 @@ nav h1{
 
 .contacts {
     border: none;
-    margin: 10px;
+    margin: 10px 0px;
     width: 100%;
 }
 .contact .contacts input[type="text"]{
@@ -399,7 +406,11 @@ nav h1{
     outline: none;
     border: 2px solid rgba(168, 167, 167, 0.2) ;
     box-sizing: border-box;
-    width: 100% 
+    width: 100% ;
+    border-radius: 5px;
+}
+.contact .contacts input[type="text"]:focus{
+    border: 3px solid #22A5F1;
 }
 .input1{
     display: flex;
@@ -508,7 +519,9 @@ nav h1{
     }
 
     /*--------------------------- Contact Sections--------------------------------*/
-    
+    .contact-section{
+        padding: 30px;
+    }
     .contact{
         background: white;
         padding: 10px 15px;
@@ -610,6 +623,17 @@ nav h1{
     .class-detail-2{
         width: 80%;
         margin: auto;
+    }
+    /*--------------------------- Contact Sections--------------------------------*/
+    
+    .contact{
+        background: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        position: relative;
+        border: 3px solid orange;
     }
 }
 
