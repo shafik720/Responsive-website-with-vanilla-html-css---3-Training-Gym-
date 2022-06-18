@@ -333,7 +333,7 @@ nav h1{
 .trainer-cards{
     width: 320px;
     padding: 5px 20px 30px 20px;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.61) ;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.61) ;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -354,6 +354,64 @@ nav h1{
 }
 .trainer-cards a:hover{
     color: #ED563B;
+}
+/*--------------------------- Trainer sections ends Here --------------------------------*/
+
+/*--------------------------- Contact sections starts Here --------------------------------*/
+
+.contact-section{
+    background: url(images/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 30px;
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-sections{
+    position: relative;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border: 3px solid orange;
+}
+
+
+.contacts {
+    border: none;
+    margin: 10px;
+    width: 100%;
+}
+.contact .contacts input[type="text"]{
+    padding: 15px 15px;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid rgba(168, 167, 167, 0.2) ;
+    box-sizing: border-box;
+    width: 100% 
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.input1 fieldset input[type="text"]{
+    width: 500px;
+    color: red;
+}
+#name-field{
+    margin-right: 70px;
 }
 
 
@@ -447,6 +505,18 @@ nav h1{
         flex-direction: column;
         row-gap: 35px;
         width: 100%;
+    }
+
+    /*--------------------------- Contact Sections--------------------------------*/
+    
+    .contact{
+        background: white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        position: relative;
+        border: 3px solid orange;
     }
 }
 
