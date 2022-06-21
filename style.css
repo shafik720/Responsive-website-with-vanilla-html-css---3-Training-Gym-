@@ -417,20 +417,18 @@ nav h1{
     border-radius: 5px;
 }
 .contact .contacts input[type="text"]:focus{
-    border: 3px solid #22A5F1;
+    border: 2px solid #22A5F1;
 }
 .input1{
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
 }
-.input1 fieldset input[type="text"]{
+/* .input1 fieldset input[type="text"]{
     width: 500px;
     color: red;
-}
-#name-field{
-    margin-right: 70px;
-}
+} */
+
 #message{
     height: 200px;
     vertical-align: text-top;
@@ -540,6 +538,7 @@ footer{
 
     /*--------------------------- Contact Sections--------------------------------*/
     .contact-section{
+        /* display: none; */
         background: url(images/contact-bg.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
@@ -575,7 +574,11 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        column-gap: 0px;
         row-gap: 10px;
+    }
+    #name-field{
+        margin-right:0px;
     }
 }
 
